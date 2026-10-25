@@ -121,6 +121,9 @@ header{position:sticky;top:0;z-index:20;background:var(--hdr);backdrop-filter:bl
 .item:last-child{border-bottom:0}
 .item b{display:block;font-weight:600}
 .item span{color:var(--mute);font-size:.93rem}
+.item b a{text-decoration:none}
+.item b a::after{content:" \2197";color:var(--accent)}
+.item b a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:4px}
 
 .contact{background:var(--soft);border-top:0;margin-top:clamp(3.5rem,9vw,6rem)}
 .contact p.lead{color:var(--mute);max-width:50ch;margin-bottom:1.6rem;margin-top:-1rem}
@@ -309,9 +312,9 @@ footer{border-top:1px solid var(--line);padding:1.4rem 0 calc(1.4rem + env(safe-
     </div>
     <div>
       <h2>Certifications</h2>
-      <div class="item"><b>Implement Security Through a Pipeline using Azure DevOps</b><span>Microsoft Applied Skills, Jul 2026</span></div>
-      <div class="item"><b>Generate Reports with AI Research Agents</b><span>Microsoft Applied Skills, Jun 2026</span></div>
-      <div class="item"><b>Full Stack Java Development</b></div>
+      <div class="item"><b><a href="https://drive.google.com/file/d/1pQeSDCK95GuKsUNWKD6__epBsk54LIB8/view?usp=drivesdk" target="_blank" rel="noopener">Implement Security Through a Pipeline using Azure DevOps</a></b><span>Microsoft Applied Skills, Jul 2026</span></div>
+      <div class="item"><b><a href="https://drive.google.com/file/d/1Tga_qxtwOhauLwKGHvjRfW4FBtx1VOaX/view?usp=drivesdk" target="_blank" rel="noopener">Generate Reports with AI Research Agents</a></b><span>Microsoft Applied Skills, Jun 2026</span></div>
+      <div class="item"><b><a href="https://drive.google.com/file/d/17sa2DbJOf09BQZ-eKrxTYypM-jBv3ELe/view?usp=drivesdk" target="_blank" rel="noopener">Full Stack Java Development</a></b><span>JSpiders</span></div>
     </div>
   </div>
 </section>
